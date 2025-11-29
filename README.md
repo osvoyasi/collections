@@ -87,9 +87,7 @@ collections/
    git clone <URL-репозитория>
    cd collections
 
-========================================================================
-           		ArrayList vs LinkedList Performance Test         
-========================================================================
+ArrayList vs LinkedList Performance Test         
 
 Starting performance tests...
 Warmup iterations: 1000
@@ -144,5 +142,6 @@ LinkedList: 4 wins
 	Добавление/удаление в начале - O(1) против O(n)
 
     Добавление/удаление в середине - O(1) против O(n) при использовании итератора
+
 
 
