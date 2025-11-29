@@ -88,10 +88,10 @@ collections/
    cd collections
 
 ========================================================================
-           🚀 ArrayList vs LinkedList Performance Test         
+           		ArrayList vs LinkedList Performance Test         
 ========================================================================
 
-🔥 Starting performance tests...
+Starting performance tests...
 Warmup iterations: 1000
 Test iterations: 10000
 
@@ -123,7 +123,7 @@ iteration            | 10000      | 320         | 480
 • remove(middle)    : LinkedList
 • iteration         : ArrayList
 
-🏆 FINAL SCORE:
+FINAL SCORE:
 ArrayList: 5 wins
 LinkedList: 4 wins
   	
@@ -144,3 +144,4 @@ LinkedList: 4 wins
 	Добавление/удаление в начале - O(1) против O(n)
 
     Добавление/удаление в середине - O(1) против O(n) при использовании итератора
+
