@@ -95,7 +95,7 @@ Starting performance tests...
 Warmup iterations: 1000
 Test iterations: 10000
 
-📊 PERFORMANCE RESULTS (in microseconds)
+   PERFORMANCE RESULTS (in microseconds)
 ==========================================
 Operation            | Iterations | ArrayList   | LinkedList  
 ---------------------|------------|-------------|-------------
@@ -109,7 +109,7 @@ remove(begin)        | 10000      | 89200       | 1250
 remove(middle)       | 1000       | 12300       | 8900       
 iteration            | 10000      | 320         | 480        
 
-🎯 PERFORMANCE SUMMARY
+ PERFORMANCE SUMMARY
 ======================
 
 📈 WINNER BY OPERATION:
@@ -144,4 +144,5 @@ LinkedList: 4 wins
 	Добавление/удаление в начале - O(1) против O(n)
 
     Добавление/удаление в середине - O(1) против O(n) при использовании итератора
+
 
